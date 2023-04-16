@@ -1,11 +1,16 @@
+	*{
+		margin: 0%;
+	}
 	.home_div{
-		height: 50px;
+		justify-content: center;
+		display: flex;
+		background-color: whitesmoke;
+		width: 100%;
 	}
 	.navigation {
     	width:100%;
     	background-color:#5042eb;
         padding:5px;
-		padding-bottom:7px;
     	}
     
     #anc{
@@ -32,15 +37,12 @@
 		background-size:cover;
 		background-attachment: fixed;
 		}
-	.home_table,#home_table_th,#home_table_td{
-			border: none;
-			padding: 0px;
-		}
 	#home_headings{
-			padding-bottom: 10px;
-			color:white;
+			color: black;
 			font-size:20px;
 			font-weight:bolder;
+			margin-top: 8%;
+			margin-left: 9%;
 		}
 	.home_head{
 		display: inline-block;
@@ -49,7 +51,6 @@
 			border-radius: 50%;
 			width: 30px;
 			height: 30px;
-			margin-bottom: 10px;
 		}
 		#kap{
 			width:500px;
@@ -241,3 +242,19 @@
 		width: 300px;
 		height: 30px;
 	}
+				@media screen and (max-width:360px) {
+				.navigation #anc{
+					font-size: 10px;
+					margin-right: 2%;
+				}
+				#home_logo{
+					width: 25px;
+    				height: 25px;
+    				margin-top: 5%;
+				}
+				#home_headings{
+					margin-top: 16%;
+    				margin-left: 11%;
+    				font-size: 14px;
+				}
+			}
