@@ -1,35 +1,27 @@
-	*{
-		margin: 0%;
-	}
+
 	.home_div{
 		justify-content: center;
 		display: flex;
-		background-color: whitesmoke;
-		width: 100%;
 	}
 	.navigation {
     	width:100%;
-    	background-color:#5042eb;
         padding:5px;
     	}
-    
+	.navDiv{
+		display: flex;
+		align-items: center;
+	}
+
     #anc{
     	color:white; 
         font-size:20px;
         text-decoration:none;
-        margin-right:50px;
     	}
 	#anc:hover{
-			color:black;
-			background: aquamarine;
-			padding:10px;
-			border-radius:50%;
+		color: yellow;
 		}
 	#anc:active{
-		background-color: red;
-		color: black;
-		padding:10px;
-		border-radius:50%;
+		color: red;
 	}
 	body{
 		background-image:url("Image 2.jpg");
@@ -242,19 +234,222 @@
 		width: 300px;
 		height: 30px;
 	}
-				@media screen and (max-width:360px) {
-				.navigation #anc{
-					font-size: 10px;
-					margin-right: 2%;
-				}
-				#home_logo{
-					width: 25px;
-    				height: 25px;
-    				margin-top: 5%;
-				}
-				#home_headings{
-					margin-top: 16%;
-    				margin-left: 11%;
-    				font-size: 14px;
-				}
-			}
+	@media screen and (max-width:360px) {
+		.navigation #anc{
+			font-size: 10px;
+			margin-right: 2%;
+		}
+		#home_logo{
+			width: 25px;
+			height: 25px;
+			margin-top: 5%;
+		}
+		#home_headings{
+			margin-top: 16%;
+			margin-left: 11%;
+			font-size: 14px;
+		}
+	}
+	.home_list{
+		display: flex;
+	}
+	.home_list li{
+		list-style-type: none;
+	}
+	.home_list li a{
+		color: white;
+		text-decoration: none;
+	    margin: 50px;
+		font-size: 10px;
+	}
+	.list_div{
+		width: 100%;
+		background-color: red;
+	}
+
+	/*Index page styling*/
+
+	.homeMainDiv{
+		display: flex;
+		justify-content: center;
+		border: inset;
+		background-color: whitesmoke;
+	}
+	.homeMainDiv .home_div{
+		display: flex;
+		height: 30px;
+	}
+	.homeMainDiv .home_div li{
+		list-style-type: none
+	}
+	#home_logo{
+		width: 25px;
+		height: 25px;
+		margin-top: 3px;
+	
+	}
+	#home_headings{
+		margin-top: 6px;
+	}
+	#anc{
+		margin-right: 63px;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		padding: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.navDiv{
+		display: flex;
+		background-color: #00235a;
+		height: 33px;
+	}
+	.navDiv li{
+		list-style-type: none;
+		padding-top: 5px;
+		justify-content: space-between;
+	}
+	.navDiv li #anc:hover{
+		color: yellow;
+		text-decoration: underline;
+	}
+	.navDiv li #anc:active{
+		color: rgb(218, 29, 29);
+		text-decoration: underline;
+	}
+	.list_div{
+		background-color: white;
+		justify-content: space-between;
+	}
+	.list_div div{
+		display: flex;
+	}
+	.list_div div li{
+		padding: 3px;
+		list-style-type: none;
+	}
+	.list_div div li a{
+		margin: 0px;
+		text-decoration: none;
+		padding: 0px 50px;
+	}
+	.list_div div li a:hover{
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	#link1{
+		color: rgb(208, 75, 75);
+		font-weight: bold;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	#link2{
+		color: rgb(155, 82, 82);
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+	.btnDiv{
+		width: 100%;
+		height: 50px;
+		background-color: #00235a;
+		display: flex;
+		justify-content: space-between;
+	}
+	.btnDiv li{
+		list-style-type: none;
+	}
+	.btnDiv h1{
+		font-size: 15px;
+		color: #fff;
+		padding-left: 25px;
+	}
+	.btnDiv a{
+		text-decoration: none;
+		display: block;
+		margin: 7px 15px;
+		background: #fff;
+		color: red;
+		font-size: 15px;
+		padding: 10px;
+		border-radius: 50%;
+	}
+	.imageDiv{
+		background-image: url('back1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 2rem 0;
+		position: relative;
+		width: 100%;
+		height: 500px;
+	}
+	.contant{
+		width: 100%;
+		height: 400px; 
+		background-color:#0800ff;
+		vertical-align: bottom;
+	}
+	#myImage{
+		width: 300px;
+		height: 300px;
+		border-radius: 8%;
+	}
+
+	@media screen and (max-width:360px) {
+		section{
+			align-items: center;
+		}
+		#anc{
+			font-size: 7px;
+			margin-right: auto;
+		}
+		.list_div div li a{
+			font-size: 7px;
+			margin-right: auto;
+			padding: 0%;
+		}
+		.homeMainDiv,.navDiv,.list_div,.btnDiv{
+			width: 350px;
+		}
+		.btnDiv li a{
+			font-size: 7px;
+		}
+		.btnDiv h1{
+			font-size: 10px;
+		}
+		.contant{
+			width: 350px;
+		}
+		#myImage{
+			width: 300px;
+			height: 300px;
+		}
+		.footerDiv{
+			flex-direction: column;
+		}
+	}
+	.footerDiv{
+		background-color: #050a5c;
+		height: auto;
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		line-height: 25px;
+	}
+	#homeh4{
+		color: white;
+	}
+	.footerDiv p{
+		color: rgb(150, 142, 142);
+	}
+	#footeranc{
+		text-decoration: none;
+		color: rgb(150, 142, 142);
+	}
+	#footeranc:hover{
+		color: red;
+	}
+	.homefooter div{
+		color: white;
+	}
+	.homefooter{
+		justify-content: space-around;
+		display: flex;
+	}
