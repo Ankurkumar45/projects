@@ -23,22 +23,22 @@
         </div>
 
             <div class="contact_div">
-                <form action="script php" method="post" target="_self" autocomplete="on" class="contact_form">
+                <form action="back_end.php" method="post">
                     <label for="name">Name:-</label>
                     <br>
-                    <input id="form_input" type="text" placeholder="Enter your name">
+                    <input id="form_input" type="text" name="Name" placeholder="Enter your name">
                     <br>
                     <label for="mobile">Mobile no:-</label>
                     <br>
-                    <input id="form_input" type="tel" placeholder="your mobile no.">
+                    <input id="form_input" type="tel" name="Mobile" placeholder="your mobile no.">
                     <br>
                     <label for="email">Email id:-</label>
                     <br>
-                    <input id="form_input" type="email" placeholder="email address">
+                    <input id="form_input" type="email" name="Email" placeholder="email address">
                     <br>
                     <label for="feedback">Give your feedback</label>
                     <br>
-                    <textarea cols="50" rows="10" placeholder="Enter your feedback">Very Nice...!</textarea>
+                    <textarea cols="50" rows="10" name="feedback" placeholder="Enter your feedback">Very Nice...!</textarea>
                     <br>
                     <input type="reset">
                     <input type="submit">

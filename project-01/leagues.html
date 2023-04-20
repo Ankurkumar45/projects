@@ -18,7 +18,6 @@
 			<li><a href="Index.html" id="anc">HOME</a></li>
 			<li><a href="history.html" id="anc">HISTORY</a></li>
 			<li><a href="players.html" id="anc">PLAYERS</a></li>
-			<li><a href="leagues.html" id="anc">LEAGUES</a></li>
 			<li><a href="wc.html" id="anc">WORLD CUPS</a></li>
 			<li><a href="contact.html" id="anc">CONTACT US</a></li>
 		</div>
@@ -235,6 +234,9 @@
 	</body>
 	
 	<style>
+		*{
+			margin: auto;
+		}
 		.leagueTable,th,td{
 			border: 2px solid rgb(246, 123, 22);
 			border-collapse: collapse;
@@ -276,6 +278,19 @@
 			font-weight:bolder;
 			font-size:30px;
 			color:yellow;
+			}
+			@media screen and (max-width: 600px) {
+				.ipl_teams th,td{
+					padding: 7px;
+					font-size: 7px;
+				}
+				.leagueTable th,td{
+					padding: 7px;
+					font-size: 7px;
+				}
+				.ipl_teams,.leagueTable{
+					width: 300px;
+				}
 			}
 	</style>
 </html>

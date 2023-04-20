@@ -1,455 +1,513 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
-	.home_div{
-		justify-content: center;
-		display: flex;
-	}
-	.navigation {
-    	width:100%;
-        padding:5px;
-    	}
-	.navDiv{
-		display: flex;
-		align-items: center;
+.home_div {
+	justify-content: center;
+	display: flex;
+}
+
+#anc {
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#anc:hover {
+	color: yellow;
+}
+
+#anc:active {
+	color: red;
+}
+
+body {
+	background-image: url("Image 2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#home_headings {
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 8%;
+	margin-left: 9%;
+}
+
+.home_head {
+	display: inline-block;
+}
+
+#home_logo {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+
+#kap {
+	width: 500px;
+	height: 300px;
+}
+
+#cap {
+	width: 200px;
+	height: 300px;
+}
+
+p {
+	color: white;
+	text-align: justify;
+}
+
+h1,
+h3,
+h2,
+h4 {
+	color: yellow;
+}
+
+.player-profile {
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: white;
+}
+
+.player-name {
+	color: aqua;
+}
+
+.demo-div {
+	display: inline-block;
+}
+
+#official_web {
+	color: #e8d279;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#official_web:hover {
+	background-color: rebeccapurple;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.ipl_teams,
+th,
+td {
+	color: white;
+	border: 2px groove wheat;
+	border-collapse: collapse;
+	padding: 25px;
+}
+
+#team {
+	color: white;
+	text-decoration: none;
+}
+
+#team:hover {
+	background-color: aqua;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#team:active {
+	background-color: red;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#captain {
+	color: white;
+	text-decoration: none;
+}
+
+#captain:hover {
+	background-color: aqua;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#captain:active {
+	background-color: red;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#coach {
+	color: white;
+	text-decoration: none;
+}
+
+#coach:hover {
+	background-color: aqua;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#coach:active {
+	background-color: red;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#wc_main_heading {
+	color: black;
+	border-bottom: dotted;
+}
+
+#wcw {
+	color: yellow;
+	text-decoration: none;
+}
+
+#wcw:hover {
+	background-color: aqua;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#wcw:active {
+	background-color: red;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.wc_body {
+	background-image: url("wc_background_trophy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#wc_h2 {
+	color: black;
+}
+
+#wc_p {
+	color: rgb(52, 52, 3);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#wc_list_anchor {
+	text-decoration: none;
+	color: black;
+}
+
+#wc_list_anchor:hover {
+	background-color: aqua;
+	color: black;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#wc_list_anchor:active {
+	background-color: red;
+	color: black;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#wc_em:hover {
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.wc_image {
+	width: 100%;
+}
+
+.wc_image_div {
+	margin: auto;
+	width: 50%;
+}
+
+#contact_body {
+	background-image: url("Free Vector _ Abstract background of india.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact_div {
+	background-color: #e8d279;
+	width: cover;
+	padding: 50px;
+	margin-top: 100px;
+}
+
+#contact_heading {
+	color: black;
+	background: aquamarine;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#contact_heading:hover {
+	background-color: #e8d279;
+}
+
+.contact_form {
+	font-size: 20px;
+}
+
+#form_input {
+	width: 300px;
+	height: 30px;
+}
+
+.home_list {
+	display: flex;
+}
+
+.home_list li {
+	list-style-type: none;
+}
+
+.home_list li a {
+	color: white;
+	text-decoration: none;
+	margin: 50px;
+	font-size: 10px;
+}
+
+/*Index page styling*/
+
+.homeMainDiv {
+	display: flex;
+	justify-content: center;
+	border: inset;
+	background-color: whitesmoke;
+}
+
+.homeMainDiv .home_div {
+	display: flex;
+	height: 30px;
+}
+
+.homeMainDiv .home_div li {
+	list-style-type: none
+}
+
+#home_logo {
+	width: 25px;
+	height: 25px;
+	margin-top: 3px;
+
+}
+
+#home_headings {
+	margin-top: 6px;
+}
+
+.navDiv {
+	display: flex;
+	justify-content: space-around;
+	background-color: #00235a;
+	height: 30px;
+}
+
+.navDiv li {
+	list-style-type: none;
+	padding-top: 5px;
+	justify-content: space-between;
+}
+
+.navDiv li #anc:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.navDiv li #anc:active {
+	color: rgb(218, 29, 29);
+	text-decoration: underline;
+}
+
+.list_div {
+	background-color: white;
+	justify-content: space-between;
+}
+
+.list_div div {
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	align-items: center;
+}
+
+.list_div div li {
+	padding: 3px;
+	list-style-type: none;
+}
+
+.list_div div li a {
+	margin: 0px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.list_div div li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#link1 {
+	color: rgb(208, 75, 75);
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#link2 {
+	color: rgb(155, 82, 82);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btnDiv {
+	height: 45px;
+	background-color: #00235a;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btnDiv li {
+	list-style-type: none;
+}
+
+.btnDiv h1 {
+	font-size: 15px;
+	color: #fff;
+	padding-left: 25px;
+}
+
+.btnDiv a {
+	text-decoration: none;
+	display: block;
+	margin: 7px 0px;
+	background: #fff;
+	color: red;
+	font-size: 10px;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.imageDiv {
+	background-image: url('back1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2rem 0;
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+.contant {
+	width: 100%;
+	height: 400px;
+	background-color: #0800ff;
+	vertical-align: bottom;
+}
+
+#myImage {
+	width: 300px;
+	height: 300px;
+	border-radius: 8%;
+}
+
+.footerDiv {
+	background-color: #050a5c;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	line-height: 25px;
+}
+
+#homeh4 {
+	color: white;
+}
+
+.footerDiv p {
+	color: rgb(150, 142, 142);
+}
+
+#footeranc {
+	text-decoration: none;
+	color: rgb(150, 142, 142);
+}
+
+#footeranc:hover {
+	color: red;
+}
+
+.homefooter div {
+	color: white;
+}
+
+.homefooter {
+	justify-content: space-around;
+	display: flex;
+}
+
+#homeCenter {
+	color: rgb(150, 142, 142);
+}
+
+.homefooter div span {
+	font-size: 10px;
+}
+
+#tc {
+	font-size: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width:416px) {
+	.btnDiv a {
+		font-size: 7px;
 	}
 
-    #anc{
-    	color:white; 
-        font-size:20px;
-        text-decoration:none;
-    	}
-	#anc:hover{
-		color: yellow;
-		}
-	#anc:active{
-		color: red;
-	}
-	body{
-		background-image:url("Image 2.jpg");
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-attachment: fixed;
-		}
-	#home_headings{
-			color: black;
-			font-size:20px;
-			font-weight:bolder;
-			margin-top: 8%;
-			margin-left: 9%;
-		}
-	.home_head{
-		display: inline-block;
-	}
-	#home_logo{
-			border-radius: 50%;
-			width: 30px;
-			height: 30px;
-		}
-		#kap{
-			width:500px;
-			height:300px;
-		}
-		
-		#cap{
-			width:200px;
-			height:300px;
-		}
-	p{
-		color: white;
-		text-align:justify;
-	}
-	h1,h3,h2,h4{
-					color:yellow;
-        }
-	.player-profile{
-			margin-bottom: 5px;
-			font-size: 15px;
-			color:white;
-			}
-		
-	.player-name{
-			color:aqua;
-			}
-	.demo-div{
-			display:inline-block;
-		}
-	#official_web{
-		color: #e8d279;
-		font-size: 15px;
-		text-decoration: none;
-	}
-	#official_web:hover{
-		background-color: rebeccapurple;
-		padding:10px;
-		border-radius:50%;
-	}
-	.ipl_teams,th,td{
-		color: white;
-		border: 2px groove wheat;
-		border-collapse: collapse;
-		padding: 25px;
-	}
-	#team{
-		color: white;
-		text-decoration: none;
-	}
-	#team:hover{
-		background-color: aqua;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#team:active{
-		background-color: red;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#captain{
-		color: white;
-		text-decoration: none;
-	}
-	#captain:hover{
-		background-color: aqua;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#captain:active{
-		background-color: red;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#coach{
-		color: white;
-		text-decoration: none;
-	}
-	#coach:hover{
-		background-color: aqua;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#coach:active{
-		background-color: red;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#wc_main_heading{
-		color: black;
-		border-bottom: dotted;
-	}
-	#wcw{
-		color: yellow;
-		text-decoration: none;
-	}
-	#wcw:hover{
-		background-color: aqua;
-		color: black;
-		text-decoration: underline;
-		padding:10px;
-		border-radius:50%;
-	}
-	#wcw:active{
-		background-color: red;
-		color: black;
-		text-decoration: underline;
-		padding: 10px;
-		border-radius: 50%;
-	}
-	.wc_body{
-		background-image: url("wc_background_trophy.jpg");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
-	#wc_h2{
-		color: black;
-	}
-	#wc_p{
-		color: rgb(52, 52, 3);
-		font-weight: bold;
-		font-size: 15px;
-	}
-	#wc_list_anchor{
-		text-decoration: none;
-		color: black;
-	}
-	#wc_list_anchor:hover{
-		background-color: aqua;
-		color: black;
-		padding:10px;
-		border-radius:50%;
-	}
-	#wc_list_anchor:active{
-		background-color: red;
-		color: black;
-		text-decoration: underline;
-		padding: 10px;
-		border-radius: 50%;
-	}
-	#wc_em:hover{
-		background-color: yellow;
-		color: black;
-		padding:10px;
-		border-radius:50%;
-	}
-	.wc_image{
-		width: 100%;
-	}
-	.wc_image_div{
-		margin: auto;
-		width: 50%;
-	}
-	#contact_body{
-		background-image: url("Free Vector _ Abstract background of india.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.contact_div{
-		background-color: #e8d279;
-		width: cover;
-		padding: 50px;
-		margin-top: 100px;
-	}
-	#contact_heading{
-		color:black;
-		background: aquamarine;
-		padding:10px;
-		border-radius:50%;
-	}
-	#contact_heading:hover{
-		background-color: #e8d279;
-	}
-	.contact_form{
-		font-size: 20px;
-	}
-	#form_input{
-		width: 300px;
-		height: 30px;
-	}
-	@media screen and (max-width:360px) {
-		.navigation #anc{
-			font-size: 10px;
-			margin-right: 2%;
-		}
-		#home_logo{
-			width: 25px;
-			height: 25px;
-			margin-top: 5%;
-		}
-		#home_headings{
-			margin-top: 16%;
-			margin-left: 11%;
-			font-size: 14px;
-		}
-	}
-	.home_list{
-		display: flex;
-	}
-	.home_list li{
-		list-style-type: none;
-	}
-	.home_list li a{
-		color: white;
-		text-decoration: none;
-	    margin: 50px;
+	.btnDiv h1 {
 		font-size: 10px;
 	}
-	.list_div{
-		width: 100%;
-		background-color: red;
+
+	#anc {
+		font-size: 7px;
 	}
 
-	/*Index page styling*/
-
-	.homeMainDiv{
-		display: flex;
-		justify-content: center;
-		border: inset;
-		background-color: whitesmoke;
-	}
-	.homeMainDiv .home_div{
-		display: flex;
-		height: 30px;
-	}
-	.homeMainDiv .home_div li{
-		list-style-type: none
-	}
-	#home_logo{
-		width: 25px;
-		height: 25px;
-		margin-top: 3px;
-	
-	}
-	#home_headings{
-		margin-top: 6px;
-	}
-	#anc{
-		margin-right: 63px;
-		text-decoration: none;
-		font-size: 20px;
-		color: white;
-		padding: 10px;
-		font-family: Arial, Helvetica, sans-serif;
-	}
-	.navDiv{
-		display: flex;
-		background-color: #00235a;
-		height: 33px;
-	}
-	.navDiv li{
-		list-style-type: none;
-		padding-top: 5px;
-		justify-content: space-between;
-	}
-	.navDiv li #anc:hover{
-		color: yellow;
-		text-decoration: underline;
-	}
-	.navDiv li #anc:active{
-		color: rgb(218, 29, 29);
-		text-decoration: underline;
-	}
-	.list_div{
-		background-color: white;
-		justify-content: space-between;
-	}
-	.list_div div{
-		display: flex;
-	}
-	.list_div div li{
-		padding: 3px;
-		list-style-type: none;
-	}
-	.list_div div li a{
-		margin: 0px;
-		text-decoration: none;
-		padding: 0px 50px;
-	}
-	.list_div div li a:hover{
-		text-decoration: underline;
-		font-weight: bold;
-	}
-	#link1{
-		color: rgb(208, 75, 75);
-		font-weight: bold;
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	}
-	#link2{
-		color: rgb(155, 82, 82);
-		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	}
-	.btnDiv{
-		width: 100%;
-		height: 50px;
-		background-color: #00235a;
-		display: flex;
-		justify-content: space-between;
-	}
-	.btnDiv li{
-		list-style-type: none;
-	}
-	.btnDiv h1{
-		font-size: 15px;
-		color: #fff;
-		padding-left: 25px;
-	}
-	.btnDiv a{
-		text-decoration: none;
-		display: block;
-		margin: 7px 15px;
-		background: #fff;
-		color: red;
-		font-size: 15px;
-		padding: 10px;
-		border-radius: 50%;
-	}
-	.imageDiv{
-		background-image: url('back1.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding: 2rem 0;
-		position: relative;
-		width: 100%;
-		height: 500px;
-	}
-	.contant{
-		width: 100%;
-		height: 400px; 
-		background-color:#0800ff;
-		vertical-align: bottom;
-	}
-	#myImage{
-		width: 300px;
-		height: 300px;
-		border-radius: 8%;
+	.list_div div li a {
+		font-size: 7px;
 	}
 
-	@media screen and (max-width:360px) {
-		section{
-			align-items: center;
-		}
-		#anc{
-			font-size: 7px;
-			margin-right: auto;
-		}
-		.list_div div li a{
-			font-size: 7px;
-			margin-right: auto;
-			padding: 0%;
-		}
-		.homeMainDiv,.navDiv,.list_div,.btnDiv{
-			width: 350px;
-		}
-		.btnDiv li a{
-			font-size: 7px;
-		}
-		.btnDiv h1{
-			font-size: 10px;
-		}
-		.contant{
-			width: 350px;
-		}
-		#myImage{
-			width: 300px;
-			height: 300px;
-		}
-		.footerDiv{
-			flex-direction: column;
-		}
+	#footeranc,#homeCenter,#homeh4 {
+		font-size: 10px;
 	}
-	.footerDiv{
-		background-color: #050a5c;
-		height: auto;
-		display: flex;
-		justify-content: space-around;
+	.homefooter,.footerDiv {
+		flex-direction: column;
 		text-align: center;
-		line-height: 25px;
 	}
-	#homeh4{
-		color: white;
-	}
-	.footerDiv p{
-		color: rgb(150, 142, 142);
-	}
-	#footeranc{
-		text-decoration: none;
-		color: rgb(150, 142, 142);
-	}
-	#footeranc:hover{
-		color: red;
-	}
-	.homefooter div{
-		color: white;
-	}
-	.homefooter{
-		justify-content: space-around;
-		display: flex;
-	}
+}
